@@ -32,7 +32,8 @@ const About = () => {
         </h2>
         <h3 className="text-2xl md:text-3xl font-sans mb-12">
           당장 내일 <br className="md:hidden" />
-          <span className="font-bold">‘고품질 맞춤 영상’</span>을 받아보세요.
+          <span className="font-bold">&apos;고품질 맞춤 영상&apos;</span>을
+          받아보세요.
         </h3>
 
         <div className="flex justify-center mb-12 -mx-2">
@@ -64,7 +65,7 @@ const About = () => {
           가격은 절반으로, 속도는 두배로, 품질은 A++!
           <br className="hidden md:block" />
           기업 홍보, 제품 소개, 교육 및 행사, 정보 및 안내 영상 등<br />
-          당신이 필요한 '그 영상'을 플루넷 영상제작소에 맡겨주세요.
+          당신이 필요한 &apos;그 영상&apos;을 플루넷 영상제작소에 맡겨주세요.
         </p>
 
         <div className="divider"></div>
