@@ -27,9 +27,6 @@ export const metadata: Metadata = {
     description:
       "플루닛, 생성형 AI, 생성형 인공지능, AI 비서, 인공지능 비서, 워크센터, 스튜디오, GPT",
   },
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 export default function RootLayout({
@@ -39,6 +36,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
+        <link rel="icon" href="/favicon.png" sizes="any" />
+      </head>
       <body
         className={`${pretendardRegular.variable} ${pretendardBold.variable} font-sans antialiased bg-black`}
       >
