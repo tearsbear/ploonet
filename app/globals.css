@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff4e83;
+  --secondary: #ffbb54;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.gradient-bg {
+  background: linear-gradient(var(--primary), var(--secondary));
+  padding: 1px;
+}
+
+.gradient-text {
+  background: linear-gradient(var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.gradient-text-right {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.gradient-text-red {
+  background: linear-gradient(to right, #ff7e7e, #f05f82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 80px 0px 0px;
+  background: linear-gradient(to right, transparent, #4f4f4f 50%, transparent);
+}
+
+.title-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.title-circle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: -16px;
+  top: 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+.title {
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
